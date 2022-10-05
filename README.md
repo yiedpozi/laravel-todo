@@ -43,7 +43,7 @@ npm install
 
 10. Lastly, build production assets file using this command:
 ```
-npm build
+npm run build
 ```
 
 ## Run Server
