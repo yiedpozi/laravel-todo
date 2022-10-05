@@ -1,5 +1,5 @@
 <x-layout>
-    @if ($tasks->total() > 1111110)
+    @if ($tasks->total() > 0)
         <h3 class="text-2xl font-bold tracking-tighest">{{ __('To Do Lists') }}</h3>
         <span class="text-gray-400 text-sm font-medium mt-1 mb-8 block">{{ trans_choice('{0} There are no task done yet. Lets go!|{1} :count task done. Keep up the good work!|[2,*] :count tasks done. Keep up the good work!', $total_tasks_done) }}</span>
 
